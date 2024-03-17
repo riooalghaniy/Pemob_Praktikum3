@@ -23,17 +23,16 @@ class MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Container(
-                  margin: const EdgeInsets.only(left: 10, top: 25), // Mengatur jarak atas
+                  margin: const EdgeInsets.only(left: 10, top: 25), 
                   child: const Text(
                     'Your Favorites',
                     style: TextStyle(fontSize: 17, fontWeight: FontWeight.bold),
                   ),
                 ),
                 Container(
-                  margin: const EdgeInsets.only(right: 10, bottom: 10), // Mengatur jarak bawah
+                  margin: const EdgeInsets.only(right: 10, bottom: 10), 
                   child: ElevatedButton(
                     onPressed: () {
-                      // Tambahkan fungsi untuk meng-handle action edit di sini
                     },
                     style: ButtonStyle(
                       backgroundColor: MaterialStateProperty.all<Color>(Colors.white),

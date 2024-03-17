@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Peduli Lindungi',
       theme: ThemeData(
-        primaryColor: Colors.blueAccent, // Sesuaikan dengan branding Peduli Lindungi
+        primaryColor: Colors.blueAccent, 
       ),
       home: Scaffold(
         appBar: AppBar(
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
             children: [
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 10),
-                color: Colors.blue, // Warna latar biru untuk header
+                color: Colors.blue, 
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -40,7 +40,7 @@ class MyApp extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: 20,
                                 fontWeight: FontWeight.bold,
-                                color: Colors.white, // Warna teks putih
+                                color: Colors.white, 
                               ),
                             ),
                             SizedBox(height: 5),
@@ -48,13 +48,13 @@ class MyApp extends StatelessWidget {
                               'Stay Alert to Stay Safe',
                               style: TextStyle(
                                 fontSize: 12,
-                                color: Colors.white, // Warna teks putih
+                                color: Colors.white, 
                               ),
                             ),
                           ],
                         ),
                         Image.asset(
-                          'assets/tangan_scan.png', // Ganti dengan asset foto scan aplikasi
+                          'assets/tangan_scan.png', 
                           width: 100,
                           height: 100,
                         ),
@@ -86,20 +86,19 @@ class MyApp extends StatelessWidget {
                         ),
                         ElevatedButton.icon(
                           onPressed: () {
-                            // Tambahkan fungsi untuk menangani tombol check-in di sini
                           },
                           icon: Icon(
                             Icons.qr_code_scanner,
-                            color: Colors.blue, // Ubah warna ikon menjadi biru
+                            color: Colors.blue,
                           ),
                           label: Text(
                             'Check-In',
                             style: TextStyle(
-                              color: Colors.blue, // Warna teks putih
+                              color: Colors.blue,
                             ),
                           ),
                           style: ElevatedButton.styleFrom(
-                            shadowColor: Colors.black, // Tambahkan bayangan pada tombol
+                            shadowColor: Colors.black,
                           ),
                         ),
                       ],
